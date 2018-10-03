@@ -198,6 +198,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="DataLayer\CategoryConfiguration.cs" />
+    <Compile Include="DataLayer\CustomerConfiguration.cs" />
     <Compile Include="DataLayer\InventoryItemConfiguration.cs" />
     <Compile Include="DataLayer\LaborConfiguration.cs" />
     <Compile Include="DataLayer\PartConfiguration.cs" />
@@ -207,6 +208,7 @@
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Category.cs" />
+    <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\InventoryItem.cs" />
     <Compile Include="Models\Labor.cs" />
