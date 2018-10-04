@@ -20,7 +20,7 @@ namespace TelemagicWorkflow.DataLayer
 
             Property(c => c.Address).HasMaxLength(30).IsRequired();
             Property(c => c.CompanyName).HasMaxLength(30).IsRequired();
-            Property(C => C.City).HasMaxLength(15).IsRequired();
+            Property(c => c.City).HasMaxLength(15).IsRequired();
             Property(c => c.State).HasMaxLength(2).IsRequired();
             Property(c => c.ZipCode).HasMaxLength(10).IsRequired();
             Property(c => c.Phone).HasMaxLength(15).IsOptional(); 
